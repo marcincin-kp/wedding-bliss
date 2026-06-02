@@ -41,47 +41,47 @@
   --font-sans: 'Inter', sans-serif;
   --font-script: 'Pinyon Script', cursive;
 
-  --shadow-soft: 0 4px 30px -8px oklch(0.35 0.08 25 / 0.12);
-  --shadow-elegant: 0 20px 60px -20px oklch(0.35 0.08 25 / 0.18);
+  --shadow-soft: 0 4px 30px -8px oklch(0.32 0.12 18 / 0.16);
+  --shadow-elegant: 0 20px 60px -20px oklch(0.32 0.12 18 / 0.24);
 }
 
 :root {
   --radius: 0.75rem;
 
-  /* Warm cream background */
-  --background: oklch(0.975 0.012 75);
-  --foreground: oklch(0.25 0.03 30);
+  /* Soft burgundy-tinted base */
+  --background: oklch(0.965 0.018 12);
+  --foreground: oklch(0.24 0.05 18);
 
-  --card: oklch(0.99 0.008 80);
-  --card-foreground: oklch(0.25 0.03 30);
-  --popover: oklch(0.99 0.008 80);
-  --popover-foreground: oklch(0.25 0.03 30);
+  --card: oklch(0.985 0.012 12);
+  --card-foreground: oklch(0.24 0.05 18);
+  --popover: oklch(0.985 0.012 12);
+  --popover-foreground: oklch(0.24 0.05 18);
 
   /* Burgundy primary */
-  --primary: oklch(0.38 0.11 18);
-  --primary-foreground: oklch(0.98 0.01 80);
+  --primary: oklch(0.34 0.13 18);
+  --primary-foreground: oklch(0.98 0.015 12);
 
-  /* Beige secondary */
-  --secondary: oklch(0.92 0.025 70);
-  --secondary-foreground: oklch(0.3 0.04 25);
+  /* Pale burgundy wash */
+  --secondary: oklch(0.91 0.04 12);
+  --secondary-foreground: oklch(0.3 0.075 18);
 
-  --muted: oklch(0.94 0.018 75);
-  --muted-foreground: oklch(0.5 0.03 35);
+  --muted: oklch(0.93 0.03 12);
+  --muted-foreground: oklch(0.48 0.06 18);
 
-  --accent: oklch(0.88 0.04 65);
-  --accent-foreground: oklch(0.3 0.05 25);
+  --accent: oklch(0.84 0.065 15);
+  --accent-foreground: oklch(0.26 0.08 18);
 
   --destructive: oklch(0.55 0.2 27);
-  --destructive-foreground: oklch(0.98 0.01 80);
+  --destructive-foreground: oklch(0.98 0.015 12);
 
-  --border: oklch(0.88 0.025 70);
-  --input: oklch(0.9 0.02 70);
-  --ring: oklch(0.38 0.11 18);
+  --border: oklch(0.84 0.045 13);
+  --input: oklch(0.89 0.035 12);
+  --ring: oklch(0.34 0.13 18);
 
-  --cream: oklch(0.975 0.012 75);
-  --beige: oklch(0.88 0.035 70);
-  --burgundy: oklch(0.38 0.11 18);
-  --gold: oklch(0.72 0.1 75);
+  --cream: oklch(0.965 0.018 12);
+  --beige: oklch(0.89 0.04 12);
+  --burgundy: oklch(0.34 0.13 18);
+  --gold: oklch(0.62 0.105 28);
 }
 
 @layer base {

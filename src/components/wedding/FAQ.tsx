@@ -8,15 +8,19 @@ const faqs = [
     a: "Prosíme hostí, aby prišli aspoň 15–20 minút pred začiatkom obradu.",
   },
   {
-    q: "Bude zabezpečený presun medzi obradom a hostinou?",
-    a: "Informácie o presune doplníme neskôr.",
+    q: "Bude zabezpečený autobus?",
+    a: "Áno, po obrade bude zabezpečený autobusový presun na hostinu.",
   },
   { q: "Môžeme prísť s deťmi?", a: "Informáciu doplníme neskôr." },
   {
     q: "Je potrebné potvrdiť účasť?",
     a: "Áno, prosíme vás o vyplnenie formulára na tejto stránke.",
   },
-  { q: "Do kedy treba potvrdiť účasť?", a: "Termín doplníme neskôr." },
+  {
+    q: "Aká farba je vhodná na zladenie oblečenia?",
+    a: "Ak sa chcete farebne zladiť, budeme radi za odtiene burgundi. Nie je to však povinný dress code.",
+  },
+  { q: "Do kedy treba potvrdiť účasť?", a: "Prosíme o potvrdenie účasti do 31. 8. 2026." },
 ];
 
 export function FAQ() {

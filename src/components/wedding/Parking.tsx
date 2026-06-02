@@ -96,13 +96,13 @@ export function Parking() {
           </Reveal>
 
           <Reveal delay={120}>
-            <div className="overflow-hidden rounded-2xl border border-border/60 bg-[oklch(0.18_0.03_55)] shadow-soft h-full">
+            <div className="overflow-hidden rounded-2xl border border-border/60 bg-[oklch(0.18_0.06_18)] shadow-soft h-full">
               <img
                 src={parkingMap}
                 alt="Mapka parkovania v okolí M Arény s piatimi vyznačenými parkovacími miestami"
                 className="h-full min-h-[360px] w-full object-cover"
               />
-              <div className="border-t border-primary-foreground/10 bg-[oklch(0.16_0.03_55)] px-5 py-4 text-primary-foreground">
+              <div className="border-t border-primary-foreground/10 bg-[oklch(0.16_0.06_18)] px-5 py-4 text-primary-foreground">
                 <div className="flex flex-wrap items-center justify-between gap-3">
                   <p className="font-serif text-xl">Parkovanie v okolí M Arény</p>
                   <p className="text-sm text-primary-foreground/80">Spolu približne 180 miest</p>
