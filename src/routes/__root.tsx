@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Svadba P+R" },
+      { name: "description", content: "A modern, responsive wedding website to inform guests about your special day." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Svadba P+R" },
+      { property: "og:description", content: "A modern, responsive wedding website to inform guests about your special day." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Svadba P+R" },
+      { name: "twitter:description", content: "A modern, responsive wedding website to inform guests about your special day." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/69daaa9f-bf63-4e79-927a-a0661a806023/id-preview-5628bd08--5aa7345f-69b8-457a-9a52-f718e422bc5e.lovable.app-1780389273282.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/69daaa9f-bf63-4e79-927a-a0661a806023/id-preview-5628bd08--5aa7345f-69b8-457a-9a52-f718e422bc5e.lovable.app-1780389273282.png" },
     ],
     links: [
       {
