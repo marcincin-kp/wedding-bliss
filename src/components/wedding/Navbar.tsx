@@ -2,15 +2,17 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
+const pageHref = (hash: string) => `${import.meta.env.BASE_URL}${hash}`;
+
 const links = [
-  { href: "/#uvod", label: "Úvod" },
-  { href: "/#harmonogram", label: "Harmonogram" },
-  { href: "/#miesta", label: "Miesta" },
-  { href: "/#parkovanie", label: "Parkovanie" },
-  { href: "/#menu", label: "Menu" },
-  { href: "/#ubytovanie", label: "Ubytovanie" },
-  { href: "/#rsvp", label: "RSVP" },
-  { href: "/#kontakt", label: "Kontakt" },
+  { href: pageHref("#uvod"), label: "Úvod" },
+  { href: pageHref("#harmonogram"), label: "Harmonogram" },
+  { href: pageHref("#miesta"), label: "Miesta" },
+  { href: pageHref("#parkovanie"), label: "Parkovanie" },
+  { href: pageHref("#menu"), label: "Menu" },
+  { href: pageHref("#ubytovanie"), label: "Ubytovanie" },
+  { href: pageHref("#rsvp"), label: "RSVP" },
+  { href: pageHref("#kontakt"), label: "Kontakt" },
 ];
 
 export function Navbar() {
@@ -32,7 +34,7 @@ export function Navbar() {
       )}
     >
       <nav className="max-w-7xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
-        <a href="/#uvod" className="font-script text-2xl text-burgundy">
+        <a href={pageHref("#uvod")} className="font-script text-2xl text-burgundy">
           R &amp; P
         </a>
         <ul className="hidden lg:flex items-center gap-7 text-sm tracking-wide uppercase">

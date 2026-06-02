@@ -1,6 +1,8 @@
 import heroBg from "@/assets/wedding-hero.jpg";
 import { Countdown } from "./Countdown";
 
+const pageHref = (hash: string) => `${import.meta.env.BASE_URL}${hash}`;
+
 export function Hero() {
   return (
     <section
@@ -44,13 +46,13 @@ export function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center mt-10">
           <a
-            href="/#rsvp"
+            href={pageHref("#rsvp")}
             className="inline-flex items-center justify-center px-8 py-3 bg-burgundy text-primary-foreground rounded-full text-sm tracking-wider uppercase shadow-elegant hover:opacity-90 transition"
           >
             Potvrdiť účasť
           </a>
           <a
-            href="/#harmonogram"
+            href={pageHref("#harmonogram")}
             className="inline-flex items-center justify-center px-8 py-3 border border-burgundy/40 text-burgundy rounded-full text-sm tracking-wider uppercase hover:bg-burgundy/5 transition"
           >
             Pozrieť harmonogram
