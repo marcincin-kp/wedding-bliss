@@ -11,7 +11,7 @@ export function Hero() {
         className="absolute inset-0 bg-cover bg-center opacity-60"
         style={{ backgroundImage: `url(${heroBg})` }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/30 to-background" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/45 via-background/45 to-background" />
 
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
         <p className="uppercase tracking-[0.4em] text-xs sm:text-sm text-burgundy/80 mb-6">
@@ -29,12 +29,19 @@ export function Hero() {
         </h1>
 
         <div className="divider-ornament my-8">
-          <span className="text-xs uppercase tracking-[0.3em]">12 · 09 · 2026</span>
+          <span className="inline-flex rounded-full border border-background/70 bg-background/75 px-5 py-2 text-base sm:text-lg uppercase tracking-[0.28em] shadow-soft backdrop-blur-md">
+            12 · 09 · 2026
+          </span>
         </div>
 
-        <p className="font-serif italic text-lg sm:text-xl text-foreground/80 mb-2">
-          „Budeme radi, ak budete pri tom s nami.“
-        </p>
+        <div className="mx-auto mb-2 max-w-2xl rounded-2xl border border-background/70 bg-background/72 px-5 py-4 shadow-soft backdrop-blur-md">
+          <p className="font-serif italic text-xl sm:text-2xl text-foreground">
+            „Ja a môj dom, my chceme slúžiť Pánovi.“
+          </p>
+          <p className="mt-2 text-xs uppercase tracking-[0.25em] text-burgundy/80">
+            Joz 24,15
+          </p>
+        </div>
         <p className="text-sm uppercase tracking-[0.25em] text-muted-foreground mb-10">
           Prešov
         </p>
