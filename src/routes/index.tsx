@@ -16,17 +16,17 @@ import { Footer } from "@/components/wedding/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Svadba · 12. 9. 2026 · Prešov" },
+      { title: "Svadba Ráchel & Pavol · 12. 9. 2026 · Prešov" },
       {
         name: "description",
         content:
-          "Pozvánka na svadbu — 12. september 2026, Prešov. Harmonogram, miesta, ubytovanie a potvrdenie účasti.",
+          "Pozvánka na svadbu Ráchel Sarakovej a Pavla Marcinčina — 12. september 2026, Prešov. Harmonogram, miesta, ubytovanie a potvrdenie účasti.",
       },
-      { property: "og:title", content: "Svadba · 12. 9. 2026 · Prešov" },
+      { property: "og:title", content: "Svadba Ráchel & Pavol · 12. 9. 2026 · Prešov" },
       {
         property: "og:description",
         content:
-          "Pozvánka na svadbu — 12. september 2026, Prešov. Harmonogram, miesta, ubytovanie a potvrdenie účasti.",
+          "Pozvánka na svadbu Ráchel Sarakovej a Pavla Marcinčina — 12. september 2026, Prešov. Harmonogram, miesta, ubytovanie a potvrdenie účasti.",
       },
     ],
   }),

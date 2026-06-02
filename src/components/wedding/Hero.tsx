@@ -19,13 +19,13 @@ export function Hero() {
         </p>
 
         <h1 className="font-script text-burgundy text-6xl sm:text-8xl md:text-9xl leading-none mb-2">
-          [Meno nevesty]
+          Ráchel
         </h1>
         <div className="font-serif italic text-2xl sm:text-3xl text-foreground/70 my-3">
           &amp;
         </div>
         <h1 className="font-script text-burgundy text-6xl sm:text-8xl md:text-9xl leading-none mb-8">
-          [Meno ženícha]
+          Pavol
         </h1>
 
         <div className="divider-ornament my-8">
