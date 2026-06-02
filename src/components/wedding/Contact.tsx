@@ -29,9 +29,7 @@ export function Contact() {
                 <p className="uppercase tracking-[0.25em] text-xs text-burgundy/70 mb-2">
                   {p.role}
                 </p>
-                <p className="font-serif text-lg italic text-muted-foreground">
-                  {p.value}
-                </p>
+                <p className="font-serif text-lg italic text-muted-foreground">{p.value}</p>
               </div>
             </Reveal>
           ))}

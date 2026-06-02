@@ -3,14 +3,14 @@ import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const links = [
-  { href: "#uvod", label: "Úvod" },
-  { href: "#harmonogram", label: "Harmonogram" },
-  { href: "#miesta", label: "Miesta" },
-  { href: "#parkovanie", label: "Parkovanie" },
-  { href: "#menu", label: "Menu" },
-  { href: "#ubytovanie", label: "Ubytovanie" },
-  { href: "#rsvp", label: "RSVP" },
-  { href: "#kontakt", label: "Kontakt" },
+  { href: "/#uvod", label: "Úvod" },
+  { href: "/#harmonogram", label: "Harmonogram" },
+  { href: "/#miesta", label: "Miesta" },
+  { href: "/#parkovanie", label: "Parkovanie" },
+  { href: "/#menu", label: "Menu" },
+  { href: "/#ubytovanie", label: "Ubytovanie" },
+  { href: "/#rsvp", label: "RSVP" },
+  { href: "/#kontakt", label: "Kontakt" },
 ];
 
 export function Navbar() {
@@ -32,16 +32,13 @@ export function Navbar() {
       )}
     >
       <nav className="max-w-7xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
-        <a href="#uvod" className="font-script text-2xl text-burgundy">
-          A &amp; B
+        <a href="/#uvod" className="font-script text-2xl text-burgundy">
+          R &amp; P
         </a>
         <ul className="hidden lg:flex items-center gap-7 text-sm tracking-wide uppercase">
           {links.map((l) => (
             <li key={l.href}>
-              <a
-                href={l.href}
-                className="text-foreground/80 hover:text-burgundy transition-colors"
-              >
+              <a href={l.href} className="text-foreground/80 hover:text-burgundy transition-colors">
                 {l.label}
               </a>
             </li>

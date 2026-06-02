@@ -21,9 +21,7 @@ export function Hero() {
         <h1 className="font-script text-burgundy text-6xl sm:text-8xl md:text-9xl leading-none mb-2">
           Ráchel
         </h1>
-        <div className="font-serif italic text-2xl sm:text-3xl text-foreground/70 my-3">
-          &amp;
-        </div>
+        <div className="font-serif italic text-2xl sm:text-3xl text-foreground/70 my-3">&amp;</div>
         <h1 className="font-script text-burgundy text-6xl sm:text-8xl md:text-9xl leading-none mb-8">
           Pavol
         </h1>
@@ -38,25 +36,21 @@ export function Hero() {
           <p className="font-serif italic text-xl sm:text-2xl text-foreground">
             „Ja a môj dom, my chceme slúžiť Pánovi.“
           </p>
-          <p className="mt-2 text-xs uppercase tracking-[0.25em] text-burgundy/80">
-            Joz 24,15
-          </p>
+          <p className="mt-2 text-xs uppercase tracking-[0.25em] text-burgundy/80">Joz 24,15</p>
         </div>
-        <p className="text-sm uppercase tracking-[0.25em] text-muted-foreground mb-10">
-          Prešov
-        </p>
+        <p className="text-sm uppercase tracking-[0.25em] text-muted-foreground mb-10">Prešov</p>
 
         <Countdown />
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center mt-10">
           <a
-            href="#rsvp"
+            href="/#rsvp"
             className="inline-flex items-center justify-center px-8 py-3 bg-burgundy text-primary-foreground rounded-full text-sm tracking-wider uppercase shadow-elegant hover:opacity-90 transition"
           >
             Potvrdiť účasť
           </a>
           <a
-            href="#harmonogram"
+            href="/#harmonogram"
             className="inline-flex items-center justify-center px-8 py-3 border border-burgundy/40 text-burgundy rounded-full text-sm tracking-wider uppercase hover:bg-burgundy/5 transition"
           >
             Pozrieť harmonogram

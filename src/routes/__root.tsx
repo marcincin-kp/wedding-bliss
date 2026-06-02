@@ -78,16 +78,36 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Svadba Ráchel Saraková & Pavol Marcinčin" },
-      { name: "description", content: "Pozvánka na svadbu Ráchel Sarakovej a Pavla Marcinčina, 12. september 2026 v Prešove." },
+      {
+        name: "description",
+        content:
+          "Pozvánka na svadbu Ráchel Sarakovej a Pavla Marcinčina, 12. september 2026 v Prešove.",
+      },
       { name: "author", content: "Ráchel Saraková & Pavol Marcinčin" },
       { property: "og:title", content: "Svadba Ráchel Saraková & Pavol Marcinčin" },
-      { property: "og:description", content: "Pozvánka na svadbu Ráchel Sarakovej a Pavla Marcinčina, 12. september 2026 v Prešove." },
+      {
+        property: "og:description",
+        content:
+          "Pozvánka na svadbu Ráchel Sarakovej a Pavla Marcinčina, 12. september 2026 v Prešove.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:title", content: "Svadba Ráchel Saraková & Pavol Marcinčin" },
-      { name: "twitter:description", content: "Pozvánka na svadbu Ráchel Sarakovej a Pavla Marcinčina, 12. september 2026 v Prešove." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/69daaa9f-bf63-4e79-927a-a0661a806023/id-preview-5628bd08--5aa7345f-69b8-457a-9a52-f718e422bc5e.lovable.app-1780389273282.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/69daaa9f-bf63-4e79-927a-a0661a806023/id-preview-5628bd08--5aa7345f-69b8-457a-9a52-f718e422bc5e.lovable.app-1780389273282.png" },
+      {
+        name: "twitter:description",
+        content:
+          "Pozvánka na svadbu Ráchel Sarakovej a Pavla Marcinčina, 12. september 2026 v Prešove.",
+      },
+      {
+        property: "og:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/69daaa9f-bf63-4e79-927a-a0661a806023/id-preview-5628bd08--5aa7345f-69b8-457a-9a52-f718e422bc5e.lovable.app-1780389273282.png",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/69daaa9f-bf63-4e79-927a-a0661a806023/id-preview-5628bd08--5aa7345f-69b8-457a-9a52-f718e422bc5e.lovable.app-1780389273282.png",
+      },
     ],
     links: [
       {
@@ -119,6 +139,7 @@ function RootShell({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
+        <title>Svadba Ráchel Saraková & Pavol Marcinčin</title>
         <HeadContent />
       </head>
       <body>

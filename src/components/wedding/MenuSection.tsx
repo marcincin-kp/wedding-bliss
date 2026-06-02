@@ -50,10 +50,7 @@ export function MenuSection() {
   return (
     <section id="menu" className="py-20 sm:py-28 px-6">
       <div className="max-w-5xl mx-auto">
-        <SectionHeading
-          eyebrow="S láskou pripravené"
-          title="Jedálny a nápojový lístok"
-        />
+        <SectionHeading eyebrow="S láskou pripravené" title="Jedálny a nápojový lístok" />
         <div className="grid md:grid-cols-2 gap-6 sm:gap-8">
           <Reveal>
             <List icon={UtensilsCrossed} title="Jedálny lístok" items={food} />

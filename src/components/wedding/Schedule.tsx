@@ -57,9 +57,7 @@ export function Schedule() {
                       <span className="font-serif text-lg text-burgundy">{it.time}</span>
                     </div>
                     <h3 className="font-serif text-xl text-foreground">{it.title}</h3>
-                    {it.desc && (
-                      <p className="text-sm text-muted-foreground mt-1">{it.desc}</p>
-                    )}
+                    {it.desc && <p className="text-sm text-muted-foreground mt-1">{it.desc}</p>}
                   </div>
                 </div>
               </div>

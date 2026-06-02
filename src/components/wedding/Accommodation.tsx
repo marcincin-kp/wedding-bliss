@@ -42,10 +42,22 @@ export function Accommodation() {
                 <Bed className="w-6 h-6 text-burgundy mb-4" />
                 <h3 className="font-serif text-xl mb-3">{it.name}</h3>
                 <dl className="text-sm space-y-1.5 text-muted-foreground">
-                  <div><dt className="inline text-foreground/70">Adresa: </dt><dd className="inline italic">{it.address}</dd></div>
-                  <div><dt className="inline text-foreground/70">Vzdialenosť: </dt><dd className="inline italic">{it.distance}</dd></div>
-                  <div><dt className="inline text-foreground/70">Kontakt: </dt><dd className="inline italic">{it.contact}</dd></div>
-                  <div><dt className="inline text-foreground/70">Poznámka: </dt><dd className="inline italic">{it.note}</dd></div>
+                  <div>
+                    <dt className="inline text-foreground/70">Adresa: </dt>
+                    <dd className="inline italic">{it.address}</dd>
+                  </div>
+                  <div>
+                    <dt className="inline text-foreground/70">Vzdialenosť: </dt>
+                    <dd className="inline italic">{it.distance}</dd>
+                  </div>
+                  <div>
+                    <dt className="inline text-foreground/70">Kontakt: </dt>
+                    <dd className="inline italic">{it.contact}</dd>
+                  </div>
+                  <div>
+                    <dt className="inline text-foreground/70">Poznámka: </dt>
+                    <dd className="inline italic">{it.note}</dd>
+                  </div>
                 </dl>
               </div>
             </Reveal>

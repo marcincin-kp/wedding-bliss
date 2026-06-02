@@ -62,22 +62,34 @@ export function RSVPForm() {
             ) : (
               <form onSubmit={onSubmit} className="space-y-5" noValidate>
                 <div>
-                  <label className={labelCls} htmlFor="name">Meno a priezvisko</label>
+                  <label className={labelCls} htmlFor="name">
+                    Meno a priezvisko
+                  </label>
                   <input id="name" name="name" className={fieldCls} required />
                   {errors.name && <p className="text-xs text-destructive mt-1">{errors.name}</p>}
                 </div>
 
                 <div>
-                  <label className={labelCls} htmlFor="contact">E-mail alebo telefón</label>
+                  <label className={labelCls} htmlFor="contact">
+                    E-mail alebo telefón
+                  </label>
                   <input id="contact" name="contact" className={fieldCls} required />
-                  {errors.contact && <p className="text-xs text-destructive mt-1">{errors.contact}</p>}
+                  {errors.contact && (
+                    <p className="text-xs text-destructive mt-1">{errors.contact}</p>
+                  )}
                 </div>
 
                 <div>
                   <span className={labelCls}>Potvrdzujem účasť</span>
                   <div className="flex flex-col sm:flex-row gap-3 mt-1">
                     <label className="flex-1 flex items-center gap-3 border border-border rounded-lg px-4 py-3 cursor-pointer has-[:checked]:border-burgundy has-[:checked]:bg-burgundy/5">
-                      <input type="radio" name="attending" value="yes" defaultChecked className="accent-burgundy" />
+                      <input
+                        type="radio"
+                        name="attending"
+                        value="yes"
+                        defaultChecked
+                        className="accent-burgundy"
+                      />
                       <span>Áno, prídem</span>
                     </label>
                     <label className="flex-1 flex items-center gap-3 border border-border rounded-lg px-4 py-3 cursor-pointer has-[:checked]:border-burgundy has-[:checked]:bg-burgundy/5">
@@ -89,12 +101,29 @@ export function RSVPForm() {
 
                 <div className="grid sm:grid-cols-2 gap-5">
                   <div>
-                    <label className={labelCls} htmlFor="count">Počet osôb</label>
-                    <input id="count" name="count" type="number" min={1} max={20} defaultValue={1} className={fieldCls} />
+                    <label className={labelCls} htmlFor="count">
+                      Počet osôb
+                    </label>
+                    <input
+                      id="count"
+                      name="count"
+                      type="number"
+                      min={1}
+                      max={20}
+                      defaultValue={1}
+                      className={fieldCls}
+                    />
                   </div>
                   <div>
-                    <label className={labelCls} htmlFor="participation">Účasť na</label>
-                    <select id="participation" name="participation" className={fieldCls} defaultValue="oboje">
+                    <label className={labelCls} htmlFor="participation">
+                      Účasť na
+                    </label>
+                    <select
+                      id="participation"
+                      name="participation"
+                      className={fieldCls}
+                      defaultValue="oboje"
+                    >
                       <option value="obrad">Obrade</option>
                       <option value="hostina">Hostine</option>
                       <option value="oboje">Obrade aj hostine</option>
@@ -103,17 +132,28 @@ export function RSVPForm() {
                 </div>
 
                 <div>
-                  <label className={labelCls} htmlFor="guests">Mená ďalších hostí</label>
-                  <input id="guests" name="guests" className={fieldCls} placeholder="Napríklad: Ján Novák, Mária Nováková" />
+                  <label className={labelCls} htmlFor="guests">
+                    Mená ďalších hostí
+                  </label>
+                  <input
+                    id="guests"
+                    name="guests"
+                    className={fieldCls}
+                    placeholder="Napríklad: Ján Novák, Mária Nováková"
+                  />
                 </div>
 
                 <div>
-                  <label className={labelCls} htmlFor="diet">Stravovacie obmedzenia / alergie</label>
+                  <label className={labelCls} htmlFor="diet">
+                    Stravovacie obmedzenia / alergie
+                  </label>
                   <input id="diet" name="diet" className={fieldCls} />
                 </div>
 
                 <div>
-                  <label className={labelCls} htmlFor="note">Poznámka pre snúbencov</label>
+                  <label className={labelCls} htmlFor="note">
+                    Poznámka pre snúbencov
+                  </label>
                   <textarea id="note" name="note" rows={3} className={fieldCls} />
                 </div>
 

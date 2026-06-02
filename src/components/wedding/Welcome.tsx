@@ -9,9 +9,9 @@ export function Welcome() {
           Milá rodina a priatelia,
         </p>
         <p className="mt-4 text-base sm:text-lg leading-relaxed text-foreground/75 font-light">
-          veľmi sa tešíme, že s vami môžeme zdieľať tento výnimočný deň. Na tejto
-          stránke nájdete všetky dôležité informácie o obrade, hostine, parkovaní,
-          ubytovaní a priebehu svadobného dňa.
+          veľmi sa tešíme, že s vami môžeme zdieľať tento výnimočný deň. Na tejto stránke nájdete
+          všetky dôležité informácie o obrade, hostine, parkovaní, ubytovaní a priebehu svadobného
+          dňa.
         </p>
       </Reveal>
     </section>

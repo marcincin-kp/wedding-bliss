@@ -105,9 +105,7 @@ export function Parking() {
               <div className="border-t border-primary-foreground/10 bg-[oklch(0.16_0.03_55)] px-5 py-4 text-primary-foreground">
                 <div className="flex flex-wrap items-center justify-between gap-3">
                   <p className="font-serif text-xl">Parkovanie v okolí M Arény</p>
-                  <p className="text-sm text-primary-foreground/80">
-                    Spolu približne 180 miest
-                  </p>
+                  <p className="text-sm text-primary-foreground/80">Spolu približne 180 miest</p>
                 </div>
               </div>
             </div>
