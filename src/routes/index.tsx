@@ -1,29 +1,56 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navbar } from "@/components/wedding/Navbar";
+import { Hero } from "@/components/wedding/Hero";
+import { Welcome } from "@/components/wedding/Welcome";
+import { Schedule } from "@/components/wedding/Schedule";
+import { Locations } from "@/components/wedding/Locations";
+import { Parking } from "@/components/wedding/Parking";
+import { MenuSection } from "@/components/wedding/MenuSection";
+import { RSVPForm } from "@/components/wedding/RSVPForm";
+import { Accommodation } from "@/components/wedding/Accommodation";
+import { FAQ } from "@/components/wedding/FAQ";
+import { Gallery } from "@/components/wedding/Gallery";
+import { Contact } from "@/components/wedding/Contact";
+import { Footer } from "@/components/wedding/Footer";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "Svadba · 12. 9. 2026 · Prešov" },
+      {
+        name: "description",
+        content:
+          "Pozvánka na svadbu — 12. september 2026, Prešov. Harmonogram, miesta, ubytovanie a potvrdenie účasti.",
+      },
+      { property: "og:title", content: "Svadba · 12. 9. 2026 · Prešov" },
+      {
+        property: "og:description",
+        content:
+          "Pozvánka na svadbu — 12. september 2026, Prešov. Harmonogram, miesta, ubytovanie a potvrdenie účasti.",
+      },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background text-foreground">
+      <Navbar />
+      <main>
+        <Hero />
+        <Welcome />
+        <Schedule />
+        <Locations />
+        <Parking />
+        <MenuSection />
+        <RSVPForm />
+        <Accommodation />
+        <FAQ />
+        <Gallery />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
 }
